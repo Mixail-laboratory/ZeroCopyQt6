@@ -11,6 +11,7 @@ Window {
     CameraSource {
         id: producer
         videoSink: videoOutput.videoSink
+        device: "video=Virtual Camera"
     }
     VideoOutput{
         id: videoOutput
